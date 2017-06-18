@@ -8,10 +8,10 @@
 </script>
 </head>
 
-<body id="hide"onload="myFunction()" class="noshow">
+<body id="hide" class="noshow">
 	<div class="background_wrap">
 		<video id="video_bg_elem" preload="auto" autoplay="true" muted="true"loop>
-			<source src="PlaneOverhead.mp4" type="video/mp4">
+			<source onload="myFunction()" src="PlaneOverhead.mp4" type="video/mp4">
 			<source src="PlaneOverhead.webm" type="video/webm">
 		</video>
 	</div>
