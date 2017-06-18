@@ -223,10 +223,3 @@ a:active{
 	left: 28.9%;
 }
 }
-
-.noshow{
-	visibility: hidden;
-}
-.show{
-	visibility: visible;
-}
