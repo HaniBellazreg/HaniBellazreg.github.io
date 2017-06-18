@@ -1,20 +1,14 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<style>
-/* body:before will also work
- as will body:after */
-:root:before {
-  content: url(PlaneOverhead.mp4)
-          
-  visibility: hidden;
-  position: absolute;
-  left: -999em;
+	<script>
+    function myFunction() {
+		document.getElementById("hide").setAttribute("class", "democlass");
 }
-</style>
+</script>
 </head>
 
-<body>
+<body id="hide"onload="myFunction()" class="noshow">
 	<div class="background_wrap">
 		<video id="video_bg_elem" preload="auto" autoplay="true" muted="true"loop>
 			<source src="PlaneOverhead.mp4" type="video/mp4">
@@ -47,6 +41,6 @@
 			<a class="flashit"href="mailto:introduction@devine-aero.com"><img src="btn.png"></a>
 		</div>
 	</div>
-<body>
+</body>
 
 </html>
