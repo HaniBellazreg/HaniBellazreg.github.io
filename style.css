@@ -53,15 +53,15 @@ body{
 }
 
 .phone{
-	
 	color: white;
-	font-family: Droid Serif;
-	width: 185px;
+	font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+	width: 230px;
 	height: 50px;
 	position: absolute;
 	right: 20px;
 	top: 4px;
-	font-size: 19;
 	padding-top: 30px;
 	background-image: url('Phone_logo.png');
 	background-repeat: no-repeat;
