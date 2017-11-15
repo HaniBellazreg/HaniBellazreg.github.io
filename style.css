@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #ebebe0;
+	width: 100%;
+	font-family: calibri;
+}
+
+.logo{
+	background-color: white;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.logo img{
+	width: 220px;
+}
+
+.first_section{
+	width: 100%;
+	border-top: 20px solid #00ace6;
+	min-height: 400px;
+}
+
+.second_section{
+	border-top: 20px solid #00ace6;
+	width: 100%;
+	background-color: white;
+	padding-top: 50px;
+	overflow: auto;
+}
+
+.left_section{
+	height: 510px;
+	min-width: 300px;
+	display:inline-block;
+	padding-left: 20px;
+}
+
+.right_section{
+	height: 510px;
+	min-width: 300px;
+	display:inline-block;
+	padding-left: 50px;
+}
+
+.do_you_know{
+	width: 450px;
+	height: 350px;
+	margin-top: 5px;
+	margin-left: 200px;
+	display: inline-block;
+	background-image: url(images/Student_dialog_left.png);
+	background-size: 100% 100%;
+}
+
+.do_you_know img{
+	
+}
+
+h1{
+	margin-left: 40px;
+	margin-top: 40px;
+	color: #00ace6;
+	letter-spacing: 1px;
+}
+
+.rec{
+	width: 100px;
+	display: inline-block;
+	color: white;
+	padding: 5px;
+	display: relative;
+	margin-left: 90px;
+}
+
+.image{
+	padding: 10px;
+	text-align: center;
+	border: 10px solid #00ace6;
+	margin-top: 20px;
+	width: 500px;
+	
+}
+
+a{
+	font-family: calibri;
+	color: #00ace6;
+	font-size: 20;
+}
+
+.image img{
+	height: 170px;
+	width: 500px;
+
+}
+
+.right_section{
+	text-align: center;
+}
+
+footer{
+	position: absolute;
+	bottom: 0px;
+	color: white;
+	background-color: black;
+	width: 100%;
+	height: 40px;
+	padding: 10px;
+	padding-left: 20px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box; 
+	
+}
