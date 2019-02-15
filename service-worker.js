@@ -1,4 +1,4 @@
-var cacheName='heni-test-1.0.0.0';
+var cacheName='heni-test-1.0.0.1';
 var filesToCache=[
     "./",
     "./main.js",
