@@ -1,0 +1,13 @@
+{
+    "name" : "Heni Test",
+    "short_name" : "Heni",
+    "icons" :[{
+        "src" : "favicon.png",
+        "sizes" : "144x144",
+        "type" : "image/png"
+    }],
+    "start_url" : "./shop.html",
+    "display" : "standalone",
+    "background_color" : "#ffffff",
+    "theme_color" : "#4bb049"
+}
