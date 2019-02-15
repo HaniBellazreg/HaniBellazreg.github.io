@@ -1,7 +1,9 @@
-var cacheName='heni-test-1.0.0.1';
+var cacheName='heni-test-1.0.0.0';
 var filesToCache=[
     "./",
-    "./shop.html"
+    "./main.js",
+    "index.html",
+    "shop.html"
 ];
 
 self.addEventListener('install', function(e){
