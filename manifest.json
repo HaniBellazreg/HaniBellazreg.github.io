@@ -6,7 +6,7 @@
         "sizes" : "144x144",
         "type" : "image/png"
     }],
-    "start_url" : "./shop.html",
+    "start_url" : "./",
     "display" : "standalone",
     "background_color" : "#ffffff",
     "theme_color" : "#4bb049"
