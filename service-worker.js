@@ -1,6 +1,9 @@
-var cacheName='olfa-soap-live-1.0.1.6';
+var cacheName='heni-test-1.0.0.3';
 var filesToCache=[
-    "/"
+    "./",
+    "./main.js",
+    "index.html",
+    "shop.html"
 ];
 
 self.addEventListener('install', function(e){
